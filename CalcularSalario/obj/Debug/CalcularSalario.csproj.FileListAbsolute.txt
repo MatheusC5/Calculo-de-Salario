@@ -1,0 +1,11 @@
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\bin\Debug\CalcularSalario.exe.config
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\bin\Debug\CalcularSalario.exe
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\bin\Debug\CalcularSalario.pdb
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\obj\Debug\CalcularSalario.csproj.AssemblyReference.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\obj\Debug\CalcularSalario.csproj.SuggestedBindingRedirects.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\obj\Debug\CalcularSalario.Form1.resources
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\obj\Debug\CalcularSalario.Properties.Resources.resources
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\obj\Debug\CalcularSalario.csproj.GenerateResource.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\obj\Debug\CalcularSalario.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\obj\Debug\CalcularSalario.exe
+C:\Users\mathe\OneDrive\Área de Trabalho\CalcularSalario\CalcularSalario\obj\Debug\CalcularSalario.pdb
