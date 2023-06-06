@@ -1,2 +1,2 @@
 # Calculo-Salario-Simples
-Um cálculo simples de salário feito na linguagem C#.
+Um Cálculo Simples de Salário feito na Linguagem C#.
