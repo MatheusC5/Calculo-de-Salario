@@ -42,7 +42,7 @@ namespace CalcularSalario
         {
             // declarar variáveis
             int HorasTrabalhadas, HorasExtras;
-            double ValorHora, SalarioMes;
+            decimal ValorHora, SalarioMes;
 
             // o valor das horas trabalhadas e o valor por hora ficarem vazios
             if (TxtHorasTrabalhadas.Text == "" && TxtValorHora.Text == "")
@@ -75,11 +75,11 @@ namespace CalcularSalario
                 // converter as horas extras para int
                 HorasExtras = Convert.ToInt32(TxtHorasExtras.Text);
 
-                // converter o valor por hora para int
-                ValorHora = Convert.ToDouble(TxtValorHora.Text);
+                // converter o valor por hora para decimal
+                ValorHora = Convert.ToDecimal(TxtValorHora.Text);
 
                 // calcular o salário do mês
-                SalarioMes = HorasTrabalhadas * ValorHora + HorasExtras * ValorHora * 1.5;
+                SalarioMes = (HorasTrabalhadas * ValorHora) + (HorasExtras * ValorHora * (decimal) 1.5);
 
                 // mostrar mensagem de que o cálculo do salário deu certo
                 MessageBox.Show("O Salário foi calculado com sucesso!");
@@ -96,7 +96,7 @@ namespace CalcularSalario
                 HorasTrabalhadas = Convert.ToInt32(TxtHorasTrabalhadas.Text);
 
                 // converter o valor por hora para int
-                ValorHora = Convert.ToDouble(TxtValorHora.Text);
+                ValorHora = Convert.ToDecimal(TxtValorHora.Text);
 
                 // calcular o salário do mês
                 SalarioMes = HorasTrabalhadas * ValorHora;
@@ -190,6 +190,11 @@ namespace CalcularSalario
             {
                 e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
             }
+        }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            TxtHorasTrabalhadas.Focus();
         }
     }
 }
