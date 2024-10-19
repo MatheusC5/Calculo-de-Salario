@@ -1,2 +1,2 @@
 # Calculo-de-Salario
-Um Cálculo de Salário feito na Linguagem C#.
+Um cálculo de salário feito na linguagem C#.
